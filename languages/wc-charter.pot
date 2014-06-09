@@ -113,7 +113,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-charter-settings.php:25
 #: includes/admin/settings/v1.6.6/class-wc-charter-admin-settings.php:25
 #: includes/admin/settings/v2.0.20/class-wc-charter-admin-settings.php:25
-msgid "Your Settings"
+msgid "Charter"
 msgstr ""
 
 #: includes/admin/settings/class-wc-charter-settings.php:43
@@ -134,13 +134,13 @@ msgstr ""
 #: includes/admin/settings/class-wc-charter-settings.php:50
 #: includes/admin/settings/v1.6.6/class-wc-charter-admin-settings.php:49
 #: includes/admin/settings/v2.0.20/class-wc-charter-admin-settings.php:49
-msgid "Select Country"
+msgid "Maximum Guests Per Room"
 msgstr ""
 
 #: includes/admin/settings/class-wc-charter-settings.php:51
 #: includes/admin/settings/v1.6.6/class-wc-charter-admin-settings.php:50
 #: includes/admin/settings/v2.0.20/class-wc-charter-admin-settings.php:50
-msgid "This gives you a list of countries. Only one can be selected."
+msgid "Sets the ships maximum guest per room capacity."
 msgstr ""
 
 #: includes/admin/settings/class-wc-charter-settings.php:60

@@ -326,11 +326,11 @@ final class WC_Charter {
 	public function admin_includes() {
 
 		// Load WooCommerce class if they exist.
-		if( version_compare(WC_EXTEND_WOOVERSION, '1.6.6', '>' ) ) {
-			// Include the settings page to add our own settings.
-			include_once( $this->wc_plugin_path() . 'includes/admin/settings/class-wc-settings-page.php' );
-			$this->wc_settings_page = new WC_Settings_Page(); // Call the settings page for WooCommerce.
-		}
+		// if( version_compare(WC_EXTEND_WOOVERSION, '1.6.6', '>' ) ) {
+		// 	// Include the settings page to add our own settings.
+		// 	include_once( $this->wc_plugin_path() . 'includes/admin/settings/class-wc-settings-page.php' );
+		// 	$this->wc_settings_page = new WC_Settings_Page(); // Call the settings page for WooCommerce.
+		// }
 
 		include_once( 'includes/wc-charter-hooks.php' ); // Hooks used in the admin
 		include_once( 'includes/admin/class-wc-charter-install.php' ); // Install plugin
